@@ -45,11 +45,7 @@
 									"",
 									"// cleanup",
 									"pm.globals.unset('id');",
-									"",
-									"pm.sendRequest({",
-									"    url: `${pm.collectionVariables.get('url')}/delete?id=${id}`,",
-									"    method: 'delete'",
-									"});"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -188,11 +184,7 @@
 									"",
 									"// cleanup",
 									"pm.collectionVariables.unset('id');",
-									"",
-									"pm.sendRequest({",
-									"    url: `${pm.collectionVariables.get('url')}/delete?id=${id}`,",
-									"    method: 'delete'",
-									"});"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -628,10 +620,7 @@
 							"// cleanup",
 							"pm.collectionVariables.unset('id');",
 							"",
-							"pm.sendRequest({",
-							"    url: `${pm.collectionVariables.get('baseUrl')}/delete?id=${id}`,",
-							"    method: 'delete'",
-							"});"
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -779,7 +768,7 @@
 	],
 	"variable": [
 		{
-			"id": "6604b1e7-9b92-40a1-967f-16bfbc242114",
+			"id": "856e2f5d-30d6-4296-8ed7-a0035cc136a4",
 			"key": "baseUrl",
 			"value": "https://e80dd17d-c380-4206-9059-a801a70d2ea8.mock.pstmn.io",
 			"type": "string"
