@@ -1,9 +1,10 @@
 {
 	"info": {
-		"_postman_id": "5728db2a-2d2d-4ad7-a982-c6955a85fdb3",
+		"_postman_id": "9631591b-73e0-4381-a066-26a3ee7ebed3",
 		"name": "Users API",
 		"description": "API for creating and managing NOVA Security users.",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "16871461-9631591b-73e0-4381-a066-26a3ee7ebed3"
 	},
 	"item": [
 		{
@@ -15,7 +16,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "066ad56a-1e14-4473-809e-39c3c085c0c7",
+								"id": "cd786bc5-55a0-432b-bcc6-8b6ffd2f4cef",
 								"exec": [
 									"const res = pm.response.json();",
 									"const id = pm.collectionVariables.get('id');",
@@ -51,7 +52,7 @@
 							}
 						}
 					],
-					"id": "9e058564-5a35-404e-9ff8-a2ea6bf1275a",
+					"id": "79e88bdf-e021-439a-ad5e-c1f21e8311e7",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -79,7 +80,7 @@
 					},
 					"response": [
 						{
-							"id": "94f568e8-fee0-4a99-a283-521c5a0eee37",
+							"id": "8151ee70-9a3a-4c41-acc6-bebac49dd118",
 							"name": "200 OK",
 							"originalRequest": {
 								"method": "GET",
@@ -103,6 +104,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"disabled": false,
@@ -151,7 +153,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "eeaf9dcd-0d1a-4859-9f51-8eb9b0662468",
+								"id": "f8daa81f-51f6-47a4-97c9-508a36bccf06",
 								"exec": [
 									"const res = pm.response.json();",
 									"const id = pm.collectionVariables.get('id');",
@@ -190,7 +192,7 @@
 							}
 						}
 					],
-					"id": "74cb3e23-5529-4214-9ce9-b7c2e6f71082",
+					"id": "68ad21c2-e13c-4409-9e17-67d0a8ed75fd",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -220,7 +222,7 @@
 					},
 					"response": [
 						{
-							"id": "8be95d76-5886-4e2f-ab5c-1f6a633dfaa6",
+							"id": "66a6284b-c9e9-4e4b-acff-60c4dbd41d79",
 							"name": "200",
 							"originalRequest": {
 								"method": "GET",
@@ -245,6 +247,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"disabled": false,
@@ -288,7 +291,7 @@
 					]
 				}
 			],
-			"id": "2936288d-8ad5-49f1-98ad-b9f924ba57a6"
+			"id": "1017921c-9ee0-4d46-a2fc-4cc51d281a3b"
 		},
 		{
 			"name": "New user",
@@ -296,7 +299,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "cac256e6-256b-4bcc-b94d-a6c5b8521aa1",
+						"id": "89ff1db1-cde5-4faa-b480-d3facae0152f",
 						"exec": [
 							"const res = pm.response.json();",
 							"",
@@ -333,7 +336,7 @@
 					}
 				}
 			],
-			"id": "b095670c-d2c4-4e4d-927e-5fd7f1d7aefb",
+			"id": "bc17bd35-13ec-47db-94ee-5f8589358cbe",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -366,7 +369,7 @@
 			},
 			"response": [
 				{
-					"id": "7c77e9c4-e784-48bc-b009-cc15cea72109",
+					"id": "82864af6-9cf3-451b-add1-4fbae0cab196",
 					"name": "New user",
 					"originalRequest": {
 						"method": "POST",
@@ -388,6 +391,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -436,7 +440,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "d0ac02a5-be1f-40ed-98e7-7b6138d387f9",
+						"id": "a5c4e93d-cb13-45c9-922c-6c4185a2140e",
 						"exec": [
 							"const response = pm.response;",
 							"const id = pm.request.url.query.get('id');",
@@ -459,7 +463,7 @@
 					}
 				}
 			],
-			"id": "63ec40a6-d828-47e2-8c0b-492c2f9b2043",
+			"id": "727a2ea7-0cc4-4d85-951a-b896d9f07a14",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -499,7 +503,7 @@
 			},
 			"response": [
 				{
-					"id": "fca2ee78-0afe-4659-aa8d-561271ff359f",
+					"id": "e8e6c0d2-6997-43da-a915-0608c217c91e",
 					"name": "Delete user",
 					"originalRequest": {
 						"method": "DELETE",
@@ -527,6 +531,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -575,7 +580,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "88fe0b0c-abe7-4db0-8db7-436f81eb38c3",
+						"id": "59b1440a-4519-4961-8f2d-2830313ae9c1",
 						"exec": [
 							"const res = pm.response.json();",
 							"const id = pm.request.url.query.get('id');",
@@ -626,7 +631,7 @@
 					}
 				}
 			],
-			"id": "0050d43e-01fa-4de6-8718-fc3c424cb8b8",
+			"id": "a1c76f18-cad0-4bde-b9db-d3251b8f3206",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -671,7 +676,7 @@
 			},
 			"response": [
 				{
-					"id": "2eb1dd16-942b-4e87-ac53-bba5d0d22269",
+					"id": "7f7c13ac-184f-4df8-acbe-c0eaed892565",
 					"name": "Update user",
 					"originalRequest": {
 						"method": "PUT",
@@ -699,6 +704,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -746,7 +752,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "11b8954a-efc8-4870-8324-327544537325",
+				"id": "ba96caf8-f1c8-4139-8c82-2516820e1825",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -756,7 +762,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "81ebe710-cf50-4a02-8c62-887dab5f31e9",
+				"id": "90264d53-6834-42c6-8d88-aa7a41167810",
 				"type": "text/javascript",
 				"exec": [
 					"pm.test(\"Status code is 200\", function () {",
